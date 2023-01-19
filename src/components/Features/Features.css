@@ -1,0 +1,97 @@
+/* variables */
+:root{
+ /* colors */
+ --bg1:#3e95fb;
+ --bg2:#29415e;
+ --lbg:#f0f6fc;
+ --wt:#fff;
+
+ /* fonts */
+ --f1:3rem;
+ --f2:1.2rem;
+ --f3:1rem;
+ --fm:2rem;
+ --fm2:2.2rem;
+
+
+ box-shadow: -5px -4px 21px -10px rgba(0,0,0,0.38);
+-webkit-box-shadow: -5px -4px 21px -10px rgba(0,0,0,0.38);
+-moz-box-shadow: -5px -4px 21px -10px rgba(0,0,0,0.38);
+}
+.features .headersection{
+ background-color: var(--lbg);
+ min-height: 200px;
+}
+.features .section .subheader{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ flex-wrap: wrap;
+ align-items: center;
+}
+.features .section .subheader h1{
+ color: var(--bg2);
+}
+.features .section .subheader p{
+ margin-top: -10px;
+}
+.features .section .subheader ul{
+ display: flex;
+ justify-content: center;
+ /* background-color: red; */
+ margin-top: -10px;
+ flex-wrap: wrap;
+ align-items: center;
+}
+.features .section .subheader ul li a{
+ color: var(--bg1);
+}
+.features .section .subheader ul li:nth-child(2) a{
+ color: gray;
+}
+.products .section .chooseheader{
+ /* background-color: red; */
+ text-align: center;
+}
+.products .section .chooseheader h1{
+ font-weight: 500;
+ font-size: var(--fm);
+ color: var(--bg2);
+}
+.products .section .container.col{
+ /* background-color: red; */
+ margin-top: -20px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+.products .section .container.col>*{
+ background-color: var(--wt);
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ /* background-color: red; */
+ min-height: 200px;
+ box-shadow: -5px -4px 21px -10px rgba(0,0,0,0.38);
+-webkit-box-shadow: -5px -4px 21px -10px rgba(0,0,0,0.38);
+-moz-box-shadow: -5px -4px 21px -10px rgba(0,0,0,0.38);
+ flex-grow: 1 ;
+ max-width: 350px;
+}
+.products .section .container.col>*>*{
+ margin: 5px 20px;
+ text-align: center;
+}
+.products .section .container.col>* p{
+ color: gray;
+}
+.products .section .container.col>* i{
+ font-size: var(--fm);
+ color: var(--bg1);
+}
+.products .section .container.col>* h2{
+ color: var(--bg2);
+ font-size: var(--f3);
+}

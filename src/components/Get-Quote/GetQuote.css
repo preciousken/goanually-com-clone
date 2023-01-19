@@ -1,0 +1,97 @@
+/* variables */
+:root{
+ /* colors */
+ --bg1:#3e95fb;
+ --bg2:#29415e;
+ --lbg:#f0f6fc;
+ --wt:#fff;
+
+ /* fonts */
+ --f1:3rem;
+ --f2:1.2rem;
+ --f3:1rem;
+ --fm:2rem;
+ --fm2:2.2rem;
+
+
+ box-shadow: -5px -4px 21px -10px rgba(0,0,0,0.38);
+-webkit-box-shadow: -5px -4px 21px -10px rgba(0,0,0,0.38);
+-moz-box-shadow: -5px -4px 21px -10px rgba(0,0,0,0.38);
+}
+.getquote .headersection{
+ background-color: var(--lbg);
+ min-height: 200px;
+}
+.getquote .section .subheader{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ flex-wrap: wrap;
+ align-items: center;
+}
+.getquote .section .subheader h1{
+ color: var(--bg2);
+}
+.getquote .section .subheader p{
+ margin-top: -10px;
+}
+.getquote .section .subheader ul{
+ display: flex;
+ justify-content: center;
+ /* background-color: red; */
+ margin-top: -10px;
+ flex-wrap: wrap;
+ align-items: center;
+}
+.getquote .section .subheader ul li a{
+ color: var(--bg1);
+}
+.getquote .section .subheader ul li:nth-child(2) a{
+ color: gray;
+}
+.getquote .section .chooseheader{
+ /* background-color: red; */
+ text-align: center;
+}
+.getquote .section .chooseheader h1{
+ font-weight: 500;
+ font-size: var(--fm);
+ color: var(--bg2);
+}
+.getquote .section .container.col{
+ /* background-color: red; */
+ margin-top: -20px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+.getquote .section .container.col>*{
+ background-color: var(--wt);
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ /* background-color: red; */
+ min-height: 200px;
+ box-shadow: -5px -4px 21px -10px rgba(0,0,0,0.38);
+-webkit-box-shadow: -5px -4px 21px -10px rgba(0,0,0,0.38);
+-moz-box-shadow: -5px -4px 21px -10px rgba(0,0,0,0.38);
+ flex-grow: 1 ;
+ max-width: 350px;
+}
+.getquote .section .container.col>*>*{
+ margin: 5px 20px;
+ text-align: center;
+}
+.getquote .section .container.col>* p{
+ color: gray;
+}
+.getquote .section .container.col>* i{
+ font-size: var(--fm);
+ color: var(--bg1);
+}
+.getquote .section .container.col>* h2{
+ color: var(--bg2);
+ font-size: var(--f3);
+}

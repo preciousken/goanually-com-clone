@@ -1,0 +1,66 @@
+/* variables */
+:root{
+ /* colors */
+ --bg1:#3e95fb;
+ --bg2:#29415e;
+ --wt:#fff;
+ --asideBg:#22222273;
+
+ /* fonts */
+ --f1:3rem;
+ --f2:1.2rem;
+ --fm:2rem;
+
+
+
+
+
+
+
+
+ box-shadow: -5px -4px 21px -10px rgba(0,0,0,0.38);
+-webkit-box-shadow: -5px -4px 21px -10px rgba(0,0,0,0.38);
+-moz-box-shadow: -5px -4px 21px -10px rgba(0,0,0,0.38);
+}
+
+.aside{
+ background-color: var(--asideBg);
+ padding: 20px;
+ position: fixed;
+ top: 0;
+ right: 0;
+ height: 100vh;
+ width: 100%;
+ /* max-width: 200px; */
+}
+.aside .asidecontainer{
+ background-color: var(--wt);
+ position: fixed;
+ top: 0;
+ right: 0;
+ height: 100%;
+ width: 100%;
+ max-width:300px ;
+}
+.aside.section .asidecontainer .header{
+ /* background-color: red; */
+ display: flex;
+ justify-content: flex-end;
+ margin: 10px;
+}
+.aside.section .asidecontainer .header i{
+ font-size: 1.2rem;
+ color: var(--bg2);
+}
+.aside.section .asidecontainer .header i:hover{
+ cursor: pointer;
+}
+.aside.section .asidecontainer .links li{
+ /* background-color: green; */
+ margin: 10px 0;
+}
+.aside.section .asidecontainer .links li a{
+ text-decoration: none;
+ color: var(--bg2);
+ font-weight: bold;
+}

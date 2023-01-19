@@ -1,0 +1,20 @@
+.navbar{
+ /* background-color: red; */
+ display: flex;
+}
+.navbar .container{
+ flex-grow: 1;
+ display: flex;
+ /* background-color: green; */
+ justify-content: space-between;
+ padding: 20px 0;
+}
+.navbar .brand{
+ width: 150px;
+ cursor: pointer;
+}
+.navbar .bars{
+ font-size: 15px;
+ cursor: pointer;
+}
+

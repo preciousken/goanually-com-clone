@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Fira Sans Condensed,
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.section{
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+.App{
+  position: relative;
+  overflow: hidden;
+}
+.container{
+  width: 95vw;
+  max-width: 1100px;
+  /* background-color: green; */
+  margin: 50px 0;
+}
+.btn{
+  cursor: pointer;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.noboxshadow{
+  box-shadow: none !important;
+}
